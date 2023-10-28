@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkk_8_s_contextbuddy_pages=self.webpackChunkk_8_s_contextbuddy_pages||[]).push([[3197],{1995:e=>{e.exports=JSON.parse('{"label":"hello","permalink":"/K8sContextBuddy-Pages/blog/tags/hello","allTagsPath":"/K8sContextBuddy-Pages/blog/tags","count":2}')}}]);

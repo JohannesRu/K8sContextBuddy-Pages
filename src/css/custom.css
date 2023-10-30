@@ -15,7 +15,7 @@
   --ifm-color-primary-lightest: #3cad6e;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  background-color: #296ce820;  
+  background-color: #296ce820;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
@@ -30,5 +30,114 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+@font-face {
+  font-family: "RozhaOne Regular";
+  src: url('/fonts/RozhaOne-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "OpenSans";
+  src: url("/fonts/OpenSans-VariableFont_wdth,wght.ttf") format("truetype"),
+    url("/fonts/OpenSans-Italic-VariableFont_wdth,wght.ttf") format("truetype");
+  font-weight: 100 1000;
+}
+
 body {
+  font-family: "OpenSans";
+}
+
+.landingpage-intro {
+  height: 36vh;
+  overflow: visible;
+}
+
+header {
+  overflow: visible;
+}
+
+.heroBanner_src-pages-index-module {
+  overflow: visible !important;
+}
+
+.rozha-font {
+  font-family: "RozhaOne Regular";
+}
+
+.hero__title {
+  font-family: "RozhaOne Regular";
+  font-size: 7.6vw;
+}
+
+.hero__subtitle {
+  font-size: 2vw;
+}
+
+.landingpage-screenshot {
+  height: 48vh;
+}
+
+.intro-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 24vh;
+}
+
+@media only screen and (max-width: 900px) {
+  .hero__title {
+    font-size: 9.0vw;
+  }
+
+  .hero__subtitle {
+    font-size: 4.4vw;
+  }
+
+  .landingpage-screenshot {
+    width: 100vw;
+    height: auto;
+  }
+
+  .landingpage-intro {
+    height: 30vh;
+  }
+
+  .intro-main {
+    height: 10vh;
+  }
+}
+
+.intro-getstarted-button {
+  height: 52px;
+  line-height: 34px;
+  width: 230px;
+}
+
+.intro-container {
+  padding: 8vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.intro-item-txt {
+
+}
+
+.intro-item-img {
+  object-fit:contain;
+  height: 30vh;
+}
+
+.white {
+  background-color: white;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
 }

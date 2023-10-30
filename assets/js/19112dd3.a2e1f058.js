@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkk_8_s_contextbuddy_pages=self.webpackChunkk_8_s_contextbuddy_pages||[]).push([[6593],{4543:e=>{e.exports=JSON.parse('{"permalink":"/K8sContextBuddy-Pages/blog/tags/hello","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

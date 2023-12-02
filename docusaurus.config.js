@@ -77,16 +77,19 @@ const config = {
           },
         ],
       },
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+      },
       footer: {
         style: 'light',
         links: [
           
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Contact: Johannes Ott - 🇪🇺 Berlin, Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
       },
     }),
 };

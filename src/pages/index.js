@@ -61,6 +61,17 @@ export default function Home() {
           </div>
           <img className='intro-item-img' src={require('@site/static/img/landingpage-menubar.png').default}></img>
         </div>
+
+        <div className='intro-main white direction-column'>
+          <Link
+            className="button button--primary button--lg intro-getstarted-button"
+            to="https://install.appcenter.ms/users/johannesott/apps/k8contextbuddy/distribution_groups/k8scontextbuddy-public">
+            Download
+          </Link>
+          <br></br>
+          <p>K8sContextBuddy is still in Beta mode. <br></br>
+             <i>An error-free experience cannot be guaranteed at this point in time, please report bugs and ideas for improvement.</i> 🙏 </p>
+        </div>
       </main>
     </Layout>
   );

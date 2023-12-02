@@ -84,6 +84,11 @@ header {
   height: 24vh;
 }
 
+.direction-column {
+  flex-direction: column;
+  justify-content: center;
+}
+
 @media only screen and (max-width: 900px) {
   .hero__title {
     font-size: 9.0vw;
@@ -128,6 +133,7 @@ header {
 .intro-item-img {
   object-fit:contain;
   height: 30vh;
+  max-width: 40vw;
 }
 
 .white {
